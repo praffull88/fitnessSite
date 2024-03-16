@@ -1,0 +1,214 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--font-Outfit:"Outfit", sans-serif;
+	--font-Poppins:"Poppins", sans-serif;
+	--main-color:#fa7c30;
+	--white-color:#fff;
+	--black-color:#000;
+}
+/*--common class*/
+.pt-pb-80{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.pb-80{
+	padding-bottom: 80px;
+}
+.pt-80{
+	padding-top: 80px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.pb-100{
+	padding-bottom: 100px;
+}
+.pt-pb-100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+span{
+	color: var(--main-color);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--white-color)!important;
+}
+.get-btn, .a-btn a{
+	padding: 8px 20px !important;
+	font-family: var(--font-Poppins) !important;
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	background-color: var(--main-color) !important;
+	border:none !important;
+	border-radius: 4px;
+	cursor: pointer;
+	color: var(--white-color) !important;
+	transition:.50s !important;
+	text-decoration: none !important;
+}
+.get-btn:hover, .a-btn a:hover {
+	background-color: #FABB2F;
+	text-transform: uppercase;
+	color: var(--black-color) !important;
+}
+.form-control:focus{
+	box-shadow:none !important;
+}
+/*---started Main css*/
+.nav-bar-bg{
+	background-color: rgba(0, 0, 0, 0.10);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+.nav-bar-bg h2, h6{
+	margin-bottom: 0px !important;
+}
+.head-nav li a{
+	color: var(--white-color);
+	transition: .60s;
+}
+.head-nav li a:hover{
+	color: var(--main-color);
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: .60s;
+}
+/*--end of nav bar*/
+.banner{
+	background:url(../images/banner-img.png) no-repeat;
+	height: 100vh;
+	background-position: center;
+}
+.banner-rel{
+	position: relative;
+}
+.banner-heading{
+	position: absolute;
+	top: 28%;
+}
+.b-heading h1{
+	font-size: 74px;
+	font-weight: 700;
+}
+/*end of banner-section*/
+
+.welcome-section{
+	background:#CEEBF0;
+	background-position: center;
+}
+.wel-right{
+	padding-top: 100px !important;
+}
+.wel-right h1{
+	font-family: var(--font-Poppins);
+	font-weight: 600;
+}
+.wel-right p{
+	font-family: var(--font-Outfit);
+	font-weight: 400;
+}
+.wel-right p:last-child{
+	color: #4A4A4A;
+}
+/*--end of welcome-section*/
+.blog{
+	background-position: center;
+}
+.blog-imgs img{
+	margin-top: 11px;
+	border-radius:4px ;
+}
+/*--end of blog-section*/
+.trained{
+	background:url(../images/section-img.png) no-repeat;
+/*	background-position: center;*/
+}
+.trainer-title h3{
+	font-size:45px;
+}
+.trainer-title h1{
+	font-size:70px;
+}
+/*-- end of .trained --*/
+.trainer-section{
+	background:#CEEBF0 ;
+}
+.trainer-heading h1{
+	color: var(--black-color) !important;
+	font-weight: 700;
+	font-family: var(--font-Poppins);
+}
+.trainer-heading p{
+	font-family: var(--font-Outfit);
+	font-weight: 500;
+	color: darkgray;
+	font-size: 14px;
+}
+.exp-tra-title h3, h6{
+	color: var(--black-color) ;
+	font-family: var(--font-Poppins);
+}
+.exp-tra-title h6{
+	font-size: 12px;
+	font-family: var(--font-Outfit) !important;
+}
+.exp-tra-title p{
+	line-height: 1.4em;
+	font-size: 12px;
+}
+/*---end of trainer-section*/
+.contact-section{
+
+}
+.contact-right {
+	background:url(../images/media-img-1.png) no-repeat;
+	background-position: center;
+}
+.contact-right h1 , 
+.contact-left h1{
+	font-family: var(--font-Poppins);
+	font-weight: 600;
+	margin-top: 35px;
+}
+.contact-btn{
+	margin-top: 35px;
+}
+.contact-left {
+	background:url(../images/media-img-2.png) no-repeat;
+	background-position: center;
+}
+/*--- end of contact-section ---*/
+.footer-section{
+	background-color:  #111111;
+}
+.footer-logo h1{
+	font-weight: 600;
+	font-family: var(--font-Poppins);
+}
+.footer-logo h1, p{	
+	margin-bottom: 0px !important;
+}
+.footer-p p{
+	font-family: var(--font-Outfit)!important;
+	color: darkgray;
+}
+.footer-follow i{
+	color: darkgray;
+}
+.footer-follow h6{
+	color: var(--white-color) !important;
+}
+.blog-t p{
+	font-size: 13px;
+}
+.blog-images img{
+	height: 120px;
+	padding: 2px;
+}
+/*---- end of footer ---*/
+.copy-right{
+	background: #000406;
+}
